@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/game-pass-recommendations/precache-manifest.c59438c3665a6a72818c26f4cc72c513.js"
+  "/game-pass-recommendations/precache-manifest.0462e534577efefa94928b13c73d538a.js"
 );
 
 self.addEventListener('message', (event) => {
