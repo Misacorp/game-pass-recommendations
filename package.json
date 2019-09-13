@@ -42,7 +42,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint src --ext .js,.jsx --fix",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
