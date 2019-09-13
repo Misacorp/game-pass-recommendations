@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/game-pass-recommendations/static/css/main.036f711b.chunk.css",
-    "main.js": "/game-pass-recommendations/static/js/main.76cee8d7.chunk.js",
-    "main.js.map": "/game-pass-recommendations/static/js/main.76cee8d7.chunk.js.map",
-    "runtime~main.js": "/game-pass-recommendations/static/js/runtime~main.727707cb.js",
-    "runtime~main.js.map": "/game-pass-recommendations/static/js/runtime~main.727707cb.js.map",
-    "static/js/2.5686786a.chunk.js": "/game-pass-recommendations/static/js/2.5686786a.chunk.js",
-    "static/js/2.5686786a.chunk.js.map": "/game-pass-recommendations/static/js/2.5686786a.chunk.js.map",
+    "main.js": "/game-pass-recommendations/static/js/main.d16740ac.chunk.js",
+    "main.js.map": "/game-pass-recommendations/static/js/main.d16740ac.chunk.js.map",
+    "runtime~main.js": "/game-pass-recommendations/static/js/runtime~main.7ce1fd84.js",
+    "runtime~main.js.map": "/game-pass-recommendations/static/js/runtime~main.7ce1fd84.js.map",
+    "static/js/2.e9861ec9.chunk.js": "/game-pass-recommendations/static/js/2.e9861ec9.chunk.js",
+    "static/js/2.e9861ec9.chunk.js.map": "/game-pass-recommendations/static/js/2.e9861ec9.chunk.js.map",
     "index.html": "/game-pass-recommendations/index.html",
-    "precache-manifest.0462e534577efefa94928b13c73d538a.js": "/game-pass-recommendations/precache-manifest.0462e534577efefa94928b13c73d538a.js",
-    "service-worker.js": "/game-pass-recommendations/service-worker.js",
-    "static/css/main.036f711b.chunk.css.map": "/game-pass-recommendations/static/css/main.036f711b.chunk.css.map"
+    "precache-manifest.80bcc1c00ac15e4ee3bb078162476dd0.js": "/game-pass-recommendations/precache-manifest.80bcc1c00ac15e4ee3bb078162476dd0.js",
+    "service-worker.js": "/game-pass-recommendations/service-worker.js"
   }
 }
