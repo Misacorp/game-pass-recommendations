@@ -6,8 +6,6 @@ const GameWrapper = styled.div`
   box-sizing: border-box;
 
   flex-basis: 100%;
-  flex-grow: 1;
-  flex-shrink: 1;
 
   margin-bottom: 2rem;
 

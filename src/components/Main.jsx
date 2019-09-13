@@ -8,6 +8,10 @@ const MainStructure = ({ className }) => {
   return (
     <div className={className}>
       <h1>Game Pass Recommendations</h1>
+      <p>
+        Game recommendations from your friends! We are still populating the list
+        so check back later for some new additions.
+      </p>
 
       <GameList />
     </div>
@@ -16,9 +20,9 @@ const MainStructure = ({ className }) => {
 
 const Main = styled(MainStructure)`
   text-align: center;
+  color: ${({ theme }) => theme.palette.typography.light};
 
   h1 {
-    color: ${({ theme }) => theme.palette.typography.light};
     margin: 1rem;
     margin-top: 1.5rem;
     padding: 0;

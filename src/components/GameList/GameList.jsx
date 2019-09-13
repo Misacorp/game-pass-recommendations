@@ -10,9 +10,17 @@ import games from '../../games';
  * Displays multiple recommendations in a list.
  */
 const GameList = ({ className }) => {
+  const sortedGames = games.sort((a, b) => {
+    if (a.title < b.title) return -1;
+    if (a.title > b.title) return 1;
+    return 0;
+  });
+
+  console.log(sortedGames);
+
   return (
     <div className={className}>
-      {games.map(current => (
+      {sortedGames.map(current => (
         <Game data={current} key={current.title} />
       ))}
     </div>
@@ -30,8 +38,8 @@ export default styled(GameList)`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
   margin: 0;
   padding: 0.5rem;
 
