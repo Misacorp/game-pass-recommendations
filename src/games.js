@@ -110,6 +110,11 @@ export default [
         `,
         author: 'Jarka',
       },
+      {
+        content: `The beauty of Minecraft is being able to do whatever you feel like. Exploration, building, farming, mining, everything
+        is available at all times!`,
+        author: 'Misa',
+      },
     ],
     localMultiplayer: true,
     onlineMultiplayer: true,
@@ -227,7 +232,7 @@ export default [
   },
 
   {
-    title: 'State of Decay',
+    title: 'State of Decay 2',
     imageUrl:
       'https://store-images.s-microsoft.com/image/apps.29972.14339634972172525.a083998a-842a-4b8d-9108-ea025c4a7620.5c2c5169-1e34-41bc-9b55-ae61e4fa76d8',
     recommendations: [
@@ -235,6 +240,10 @@ export default [
         content: `A great take on the zombie genre. You play as a group of survivors trying to survive the apocalypse.
         Manage your resources, train your survivors and play through the different character epics.`,
         author: 'Misa',
+      },
+      {
+        content: `Fun survival game with a side of zombie.`,
+        author: 'Jasmiina',
       },
     ],
     localMultiplayer: false,
@@ -269,5 +278,70 @@ export default [
     ],
     localMultiplayer: true,
     onlineMultiplayer: true,
+  },
+
+  {
+    title: 'Cities: Skylines',
+    imageUrl:
+      'https://store-images.s-microsoft.com/image/apps.7220.66617542682682743.811213f2-2c45-4145-973d-fe3e3774b196.96b48a30-7ed1-4bc9-8f8b-b114375b2e1c',
+    recommendations: [
+      {
+        content: `Like Sim City, but better. WARNING! Highly addicting.`,
+        author: 'Jasmiina',
+      },
+      {
+        content: `The challenge to building a great city is making it beautiful and functional at the same time. See if you can do both.`,
+        author: 'Misa',
+      },
+    ],
+    localMultiplayer: false,
+    onlineMultiplayer: false,
+  },
+
+  {
+    title: 'Fallout 4',
+    imageUrl:
+      'https://store-images.s-microsoft.com/image/apps.50286.66091604408099736.4cc75ea1-c6a0-40ec-b7f9-7fdb8da581b2.124090f5-4333-4929-af8b-62b4331439d4',
+    recommendations: [
+      {
+        content: `Most fun you will ever have building houses in a nuclear wasteland.`,
+        author: 'Jasmiina',
+      },
+    ],
+    localMultiplayer: false,
+    onlineMultiplayer: false,
+  },
+
+  {
+    title: 'Middle Earth: Shadow of Mordor',
+    imageUrl:
+      'https://store-images.s-microsoft.com/image/apps.20451.68460258964057960.66d06666-90f8-48e6-8808-a3f7dbd1fa23.8962f52c-c08a-4e42-924c-ba0fd59ac22a',
+    recommendations: [
+      {
+        content: `Build your own army of orcs, but it's super fun and not boring at all. First game I played through on the Xbox.`,
+        author: 'Jasmiina',
+      },
+      {
+        content: `There's a wealth of emergent gameplay here when a random orc kills you, gets promoted to a captain and your personal
+        quest suddenly becomes taking them down because they're annoying. The sequel, Shadow of War, is also on Game Pass and is even better.`,
+        author: 'Misa',
+      },
+    ],
+    localMultiplayer: false,
+    onlineMultiplayer: false,
+  },
+
+  {
+    title: 'Tomb Raider: Definitive Edition',
+    imageUrl:
+      'https://store-images.s-microsoft.com/image/apps.35283.68847167288522183.9fdea778-258f-40d6-9f9e-fab92915bc6d.98c2dd25-9180-49e5-bdd3-6bdb1d857889',
+    recommendations: [
+      {
+        content: `I mean, it's Lara Croft. Doesn't get much more bad ass than that. Also the sequels are better but you have to play this first.`,
+        author: 'Jasmiina',
+      },
+    ],
+    localMultiplayer: false,
+    onlineMultiplayer: false,
   },
 ];

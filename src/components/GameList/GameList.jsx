@@ -4,23 +4,17 @@ import PropTypes from 'prop-types';
 
 import Game from './Game/Game';
 
-import games from '../../games';
-
 /**
  * Displays multiple recommendations in a list.
  */
-const GameList = ({ className }) => {
-  const sortedGames = games.sort((a, b) => {
-    if (a.title < b.title) return -1;
-    if (a.title > b.title) return 1;
-    return 0;
-  });
-
-  console.log(sortedGames);
+const GameList = ({ games, className }) => {
+  if (games.length < 1) {
+    return <h2>No games matching your filters!</h2>;
+  }
 
   return (
     <div className={className}>
-      {sortedGames.map(current => (
+      {games.map(current => (
         <Game data={current} key={current.title} />
       ))}
     </div>
@@ -28,6 +22,7 @@ const GameList = ({ className }) => {
 };
 
 GameList.propTypes = {
+  games: PropTypes.array,
   className: PropTypes.string,
 };
 
